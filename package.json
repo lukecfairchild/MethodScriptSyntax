@@ -1,8 +1,9 @@
 {
-    "name": "MethodScriptSyntax",
-    "author": "Luke C Fairchild",
-    "displayName": "MethodScriptSyntax",
-    "description": "Syntax Highlighting for MethodScript",
+    "name": "methodcriptsyntax",
+	"displayName": "MethodScriptSyntax",
+	"publisher": "lukecfairchild",
+	"repository": "https://github.com/lukecfairchild/MethodScriptSyntax",
+    "description": "",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.36.0"
@@ -11,28 +12,16 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "MScript",
-                "aliases": [
-                    "CommandHelper",
-                    "MScript"
-                ],
-                "extensions": [
-                    ".ms",
-                    ".msa",
-                    "..msa",
-                    "..ms"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "MScript",
-                "scopeName": "source.MScript",
-                "path": "./syntaxes/MScript.tmLanguage"
-            }
-        ]
+        "languages": [{
+            "id": "MScript",
+            "aliases": ["CommandHelper", "MScript"],
+            "extensions": [".ms",".msa","..msa","..ms"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "MScript",
+            "scopeName": "source.MScript",
+            "path": "./syntaxes/MScript.tmLanguage"
+        }]
     }
 }
