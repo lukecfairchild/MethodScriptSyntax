@@ -1,7 +1,8 @@
 {
-    "name": "MScript",
+	"name": "MethodScriptSyntax",
+	"author": "Luke C Fairchild",
     "displayName": "MethodScriptSyntax",
-    "description": "",
+    "description": "Syntax Highlighting for MethodScript",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.36.0"
