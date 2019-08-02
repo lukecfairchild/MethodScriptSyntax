@@ -1,0 +1,25 @@
+{
+    "name": "MScript",
+    "displayName": "MethodScriptSyntax",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "MScript",
+            "aliases": ["CommandHelper", "MScript"],
+            "extensions": [".ms",".msa","..msa","..ms"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "MScript",
+            "scopeName": "source.MScript",
+            "path": "./syntaxes/MScript.tmLanguage"
+        }]
+    }
+}
